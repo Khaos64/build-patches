@@ -2,4 +2,4 @@ build-patches
 =============
 
 
-Differnt patches to apply during mingw builds for ffmpeg
+Different patches to apply during mingw builds for ffmpeg
