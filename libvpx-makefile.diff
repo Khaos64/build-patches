@@ -1,7 +1,7 @@
 diff --git a/build/make/Makefile b/build/make/Makefile
 index 92113cc..cb9d4f4 100644
---- a/build/make/Makefile
-+++ b/build/make/Makefile
+--- build/make/Makefile
++++ build/make/Makefile
 @@ -162,9 +162,8 @@ ifeq ($(HAVE_GNU_STRIP),yes)
  # keep them.
  %.a: %_g.a
