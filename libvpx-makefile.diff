@@ -1,11 +1,9 @@
-diff --git a/build/make/Makefile b/build/make/Makefile
-index 92113cc..cb9d4f4 100644
---- build/make/Makefile
-+++ build/make/Makefile
-@@ -162,9 +162,8 @@ ifeq ($(HAVE_GNU_STRIP),yes)
+--- a/build/make/Makefile	2013-07-19 17:38:27 -0400
++++ b/build/make/Makefile	2013-07-19 17:57:31 -0400
+@@ -162,9 +162,8 @@
  # keep them.
  %.a: %_g.a
-   $(if $(quiet),@echo "    [STRIP] $@ < $<")
+ 	$(if $(quiet),@echo "    [STRIP] $@ < $<")
 -	$(qexec)$(STRIP) --strip-unneeded \
 -         `$(NM) $< | grep ' [A-TV-Z] ' | awk '{print "-K"$$3'}`\
 -          -o $@ $<
