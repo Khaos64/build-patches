@@ -1,0 +1,14 @@
+--- win32/Makefile.gcc	2012-05-02 23:18:00 -0400
++++ win32/Makefile.gcc	2013-07-16 19:44:04 -0400
+@@ -20,6 +20,11 @@
+ #   make install -fwin32/Makefile.gcc
+ #
+ # BINARY_PATH, INCLUDE_PATH and LIBRARY_PATH must be set.
++
++BINARY_PATH=$mingw_w64_x86_64_prefix/bin
++INCLUDE_PATH=$mingw_w64_x86_64_prefix/include
++LIBRARY_PATH=$mingw_w64_x86_64_prefix/lib
++
+ #
+ # To install the shared lib, append SHARED_MODE=1 to the make command :
+ #
