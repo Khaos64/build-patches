@@ -1,5 +1,5 @@
---- a/build/make/Makefile	2013-07-19 17:38:27 -0400
-+++ b/build/make/Makefile	2013-07-19 17:57:31 -0400
+--- build/make/Makefile	2013-07-19 17:38:27 -0400
++++ build/make/Makefile	2013-07-19 17:57:31 -0400
 @@ -162,9 +162,8 @@
  # keep them.
  %.a: %_g.a
